@@ -1,0 +1,70 @@
+@font-face {
+    font-display: swap; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../Assets/Assets/fonts/roboto-v30-latin-regular.woff2') format('woff2'); 
+  }
+
+  @font-face {
+    font-display: swap; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../../Assets/Assets/fonts/roboto-v30-latin-700.woff2') format('woff2'); 
+  }
+
+
+.container {
+    max-width: 1080px;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header__list {
+    align-items: center;
+    padding-right: 20px;
+    display: flex;
+}
+
+.header__item {
+    list-style-type: none;
+    padding-right: 25px;
+}
+
+.header__link {
+    text-decoration: none;
+    color: #1C1C1C;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+
+.header__item--link {
+    text-decoration: none;
+    color: white;
+    background-color:#6F2CFF;
+    padding: 11px 34px 15px 34px;
+    border-radius: 20px;
+}
+
+.header__item--login {
+    text-decoration: none;
+    color: #1C1C1C;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;    
+}

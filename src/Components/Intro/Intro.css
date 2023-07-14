@@ -1,0 +1,97 @@
+@font-face {
+    font-display: swap; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../Assets/Assets/fonts/roboto-v30-latin-regular.woff2') format('woff2'); 
+  }
+
+  @font-face {
+    font-display: swap; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../../Assets/Assets/fonts/roboto-v30-latin-700.woff2') format('woff2'); 
+  }
+
+.intro {
+    background: #F6BED9;
+}
+
+.text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #000000;
+    margin: 0px;
+    margin-bottom: 19px;
+}
+
+
+.title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 61px;
+    color: #000000;
+    width: 470px;
+    margin: 0px;
+    margin-bottom: 37px;
+}
+
+.more {
+    color: #6F2CFF;
+}
+
+.intro__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1C1C1C;   
+    width: 473px; 
+    margin: 0px;
+}
+
+.qubit {
+    color:black;
+}
+
+.intro__div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 20px;
+    margin-bottom: 235px;
+
+}
+
+.input {
+    width: 220px;
+    height: 26px;
+    background-color: white;
+    color: #000000;
+    border: none;
+    border-radius: 20px;
+}
+
+button {
+    padding-left: 10px;
+    height: 30px;
+    height: 26px;
+    border: none;
+    background-color: #6F2CFF;
+    color: white;
+    border-radius: 20px;
+}
+
+.div {
+    background-color: #6F2CFF;
+    border-radius: 15px;
+    padding: 3px 5px;
+    display: inline-block;
+}
